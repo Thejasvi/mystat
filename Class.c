@@ -51,6 +51,8 @@
     else{ /* Parent process. */
        while (wait(&pidstatus) != pid) ;
    }
+
+  exit(0);
   } 
 } 
 

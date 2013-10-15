@@ -43,6 +43,9 @@ char *tempfilename;
             {
                  tempfilename = argv[i];
                  tempfmtime= buf.st_mtime;
+                 printf("file name %s\n", filename);
+                 printf("tempfilename %s\n", tempfilename);
+                 
              }              
 
 
